@@ -1,0 +1,80 @@
+@import "bootstrap-5.0.2/scss/bootstrap.scss";
+
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #000;
+    height: 100px;
+    justify-content: space-between;
+
+    img {
+        mask-image: linear-gradient(to left, #00000000, #000000);
+    }
+}
+
+
+
+.nav {
+    margin-left: 2%;
+    align-self: center;
+
+    .nav-link {
+        color: white;
+
+        &:hover {
+            color: #a4a4a4;
+        }
+    }
+}
+
+.barraRicerca {
+    display: flex;
+    flex-flow: row nowrap;
+    align-self: center;
+    justify-content: center;
+    margin-right: 2%;
+    width: 20vw;
+
+    .btn {
+        background-color: #000;
+        color: #fff;
+        border-color:#a4a4a4;
+
+        &:hover {
+            background-color: lighten($color: #000000, $amount: 10);
+        }
+    }
+}
+
+#caroselloImmagini {
+    width: 100vw;
+}
+
+.carousel-caption {
+    background: radial-gradient(#000000bd 0%, #00000000 90%);
+}
+
+.card {
+    width: 30vw;
+}
+
+#sezioneCard {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+footer {
+    background: linear-gradient(to bottom,#00000000, #0000001c);
+
+    p {
+        color: #a4a4a4;
+        margin-bottom: 0;
+    }
+
+    margin-bottom: 0;
+}

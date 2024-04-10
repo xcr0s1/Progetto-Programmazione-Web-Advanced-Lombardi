@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="prova.css">
+</head>
+
+<body>
+    <header>
+        <a href="#"><img src="https://picsum.photos/200/100?grayscale" alt="Logo Sig.Ditano"></a>
+        <nav class="nav">
+            <a class="nav-link active" href="#" aria-current="page">Home</a>
+            <a class="nav-link" href="#">Chi siamo</a>
+            <a class="nav-link" href="#">Contatti</a>
+        </nav>
+        <form class="d-flex barraRicerca">
+            <input type="search" name="" id="" class="form-control me-2" placeholder="Cerca" aria-describedby="helpId" />
+            <button type="submit" class="btn btn-primary">Cerca</button>
+        </form>
+    </header>
+
+    <main>
+        <section id="caroselloImmagini">
+            <div id="carouselIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://picsum.photos/1280/400?grayscale" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h5>Headline di esempio 1</h5>
+                            <p>maramao</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://picsum.photos/1280/400?grayscale" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h5>Headline di esempio 2</h5>
+                            <p>omà</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://picsum.photos/1280/400?grayscale" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h5>Headline di esempio 3</h5>
+                            <p>maomaomao</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <section id="sezioneCard" class="row-cols-1">
+            <div class="card col text-center ">
+                <img src="https://picsum.photos/300/300?grayscale" class="card-img-top rounded-start" alt="Card title" />
+                <div class="card-body">
+                    <h5 class="card-title">Card 1</h5>
+                    <p class="card-text">
+                        Questa è la prima delle tre card
+                    </p>
+                </div>
+            </div>
+
+            <div class='card col text-center'>
+                <img src='https://picsum.photos/300/300?grayscale' class='card-img-top rounded' alt='Card title' />
+                <div class='card-body'>
+                    <h5 class='card-title'>Card 2</h5>
+                    <p class='card-text'>
+                        Questa è la seconda delle tre card
+                    </p>
+                </div>
+            </div>
+
+            <div class='card col text-center'>
+                <img src='https://picsum.photos/300/300?grayscale' class='card-img-top rounded' alt='Card title' />
+                <div class='card-body'>
+                    <h5 class='card-title'>Card 3</h5>
+                    <p class='card-text'>
+                        Questa è la terza delle tre card
+                    </p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p class="text-center">Creato da Zoe Lombardi &copy;2024</p>
+    </footer>
+
+    <script src="bootstrap-5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
